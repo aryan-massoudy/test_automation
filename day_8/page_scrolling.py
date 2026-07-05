@@ -10,7 +10,7 @@ time.sleep(2)
 driver.maximize_window()
 
 
-# 1st Method:
+# 1st Method: 
 # driver.execute_script("window.scrollBy(0, 1000)")
 # time.sleep(2)
 # driver.execute_script("window.scrollBy(0, 1000)")
