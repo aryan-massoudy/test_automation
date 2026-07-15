@@ -1,0 +1,17 @@
+# Ignore IntelliJ configuration files anywhere in the project
+.idea/
+*.iml
+*.iws
+out/
+
+# Ignore any target/build folders in any subdirectory
+**/target/
+*.class
+
+# Ignore the specific untitled project folder
+day_10/untitled/
+
+# Ignore log files and OS junk
+*.log
+.DS_Store
+Thumbs.db
