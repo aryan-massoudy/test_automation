@@ -1,0 +1,19 @@
+# IDE specific files (IntelliJ)
+.idea/
+*.iml
+*.iws
+out/
+
+# Sibling projects you don't want to track (like your untracked untitled folder)
+untitled/
+
+# Maven build outputs
+target/
+*.class
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
