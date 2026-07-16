@@ -15,7 +15,8 @@ public class CalculateStudentGrade {
         System.out.println("Please enter your assignment score: ");
         studentAssignmentPoints = userInput.nextInt();
 
-        float studentFinalScore = (float) (studentAssignmentPoints + studentExamPoints) / (totalObtainablePointsExam + totalObtainablePointsAssignment);
+        float studentFinalScore = (float) (studentAssignmentPoints + studentExamPoints) / (totalObtainablePointsExam +
+                totalObtainablePointsAssignment);
         System.out.println("Your final score is : " + studentFinalScore * 100 +"%");
 
 
