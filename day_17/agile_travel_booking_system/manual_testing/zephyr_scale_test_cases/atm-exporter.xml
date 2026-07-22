@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10033</projectId>
+    <projectKey>AT</projectKey>
+    <exportDate>2026-07-22 18:15:47 UTC</exportDate>
+    <folders>
+        <folder fullPath="Booking a Flight/Invalid Passenger Datails" index="3"/>
+        <folder fullPath="Booking a Flight/Invalid Payment Info." index="5"/>
+        <folder fullPath="Booking a Flight/Invalid Select Flight Scenarios" index="1"/>
+        <folder fullPath="Booking a Flight/Valid Passenger Details" index="2"/>
+        <folder fullPath="Booking a Flight/Valid Payment Info." index="4"/>
+        <folder fullPath="Booking a Flight/Valid Select Flight Scenarios" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="20898" key="AT-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:00:56 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate booking a return trip.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20899" key="AT-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:00:56 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate booking a one-way trip.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20900" key="AT-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:00:56 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate same-day departure and return trip.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20901" key="AT-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:00:56 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate booking a one-way trip with today's date.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20902" key="AT-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:00:56 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that the default value for the trip type is return trip.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20907" key="AT-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:19:02 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that booking is impossible when the return date is before departure date.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20908" key="AT-T7">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:19:03 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that booking is impossible when From city is empty.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20909" key="AT-T8">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:19:03 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that booking is impossible when To city is empty.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20910" key="AT-T9">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:19:03 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that booking is impossible when origin and destination cities are the same.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20911" key="AT-T10">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:19:03 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that booking is impossible when return date is in the past.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20912" key="AT-T11">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:19:03 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate error messages when trying to proceed without filling any fields.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20913" key="AT-T12">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:19:03 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that booking is not allowed when selecting a departure date far in the future (10 years ahead).]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20914" key="AT-T13">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:20:06 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate Select Flight on Responsive version]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20915" key="AT-T14">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:23:27 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Select Flight Scenarios]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate trying to book multiple flights at the same time]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20916" key="AT-T15">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:31:35 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Passenger Details]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate providing valid info. for the passenger details]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20917" key="AT-T16">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:32:53 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Passenger Datails]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate providing invalid info. for passenger details "Very Long or Numbers".]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20918" key="AT-T17">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:32:53 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Passenger Datails]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate leaving fields empty in passenger details.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20919" key="AT-T18">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:34:08 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate payment with Visa Card.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20920" key="AT-T19">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:34:08 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate payment with Master Card.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20921" key="AT-T20">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:57 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when the card-holder's name is empty.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20922" key="AT-T21">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:57 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when the card-holder's name contains numbers or special characters.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20923" key="AT-T22">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when the card number field is empty.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20924" key="AT-T23">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when the card number contains non-numeric characters.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20925" key="AT-T24">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when the card number has fewer digits than required.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20926" key="AT-T25">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when the card number has more digits than required.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20927" key="AT-T26">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when the card expiry date is in the past.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20928" key="AT-T27">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when the "Pay Now" button is clicked with only some fields filled.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20929" key="AT-T28">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed when special characters or spaces are entered in the card number field.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20930" key="AT-T29">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed with expired card.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20931" key="AT-T30">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that payment is not allowed with a very long card number.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20932" key="AT-T31">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 08:54:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Invalid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate proper error messages for each invalid payment option.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="21012" key="AT-T32">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-22 15:45:12 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Booking a Flight/Valid Payment Info.]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validate that user can navigate back to a new flight after succseefully paying for a flight.]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

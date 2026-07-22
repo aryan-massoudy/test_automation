@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>SCRUM</projectKey>
+    <exportDate>2026-07-20 08:48:05 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="20356" key="SCRUM-T14">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-20 08:17:07 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Login to Heroku]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Click on the "Form Authentication" link]]></description>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Input tomsmith into the Username field]]></description>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Input ${sec(password)} into the Password field]]></description>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Click on the Login button]]></description>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Assert that a green banner is visible]]></description>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Assert that the text "You logged into a secure area!" is visible]]></description>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

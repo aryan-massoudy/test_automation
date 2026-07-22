@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>SCRUM</projectKey>
+    <exportDate>2026-07-19 15:10:13 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="20134" key="SCRUM-T8" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-19 10:44:08 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Login with Valid Token]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[32542342342er]]></defaultValue>
+                    <name><![CDATA[Phone No.]]></name>
+                </parameter>
+                <parameter index="1">
+                    <defaultValue><![CDATA[123454]]></defaultValue>
+                    <name><![CDATA[OTP]]></name>
+                </parameter>
+                <parameter index="2">
+                    <defaultValue><![CDATA[12345]]></defaultValue>
+                    <name><![CDATA[Default Password]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Provide valid <var>Phone No.</var>&nbsp;]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Proivde valid <var>Default Password</var>&nbsp;]]></description>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20135" key="SCRUM-T9">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-19 10:44:23 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Add item to the cart]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Add valid number of items to cart.]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Close cart and proceed]]></description>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20136" key="SCRUM-T10">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-19 10:44:31 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Add payment]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Add valid credit card]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Proceed and make the payment]]></description>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20137" key="SCRUM-T11">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-19 10:44:42 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Leave review]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Product Review System
+  As a customer who recently purchased a product
+  I want to leave a review
+  So that I can share my feedback with other buyers
+
+Successfully leaving a review for a delivered item
+    Given items paid for
+    And items delivered
+    When the user navigates to the order history page
+    And selects the option to leave a review for the purchased item
+    And provides a star rating and a written comment
+    And submits the review
+    Then the review should be successfully saved
+    And the user should see a confirmation message "Thank you for your review!"
+    And the review should be visible on the product's review page]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="20138" key="SCRUM-T12">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-19 10:44:54 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Test for leaving a review]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="20139" key="SCRUM-T13">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Aryan Massoudy</createdBy>
+            <createdOn>2026-07-19 10:45:10 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Test tracking the item]]></name>
+            <owner>712020:d2267bf2-fc41-4d53-bedb-5d205892d82c</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Provide valid <var>32542342342er</var>&nbsp;]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Proivde valid <var>12345</var>&nbsp;]]></description>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Add valid number of items to cart.]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Close cart and proceed]]></description>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Add valid credit card]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Proceed and make the payment]]></description>
+                    </step>
+                    <step index="6">
+                        <customFields/>
+                        <description><![CDATA[​Enter DHL code]]></description>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
